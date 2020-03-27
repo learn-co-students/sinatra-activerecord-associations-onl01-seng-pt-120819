@@ -1,9 +1,9 @@
 class CreateCats < ActiveRecord::Migration
   def up
-    create_table :cats do |t|
-      t.string :name
-      t.integer :age
-      t.string :breed
+    create_table :cats do |a|
+      a.string :name
+      a.integer :age
+      a.string :breed
     end
   end
   
